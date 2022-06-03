@@ -170,11 +170,7 @@ class Caracteristicas extends Connection
     /** Actualiza registros en la tabla de características */
     public function updateComputer($computer)
     {
-        $data = json_decode(json_encode($computer),true);;
-        //var_dump($data['id']);
-        //die;
-        // Código de inserción
-
+        $data = json_decode(json_encode($computer),true);
         $id = $data['id'];
         $nombre = $data['gce_nombre_equipo'];
         $board = $data['gce_board'];
