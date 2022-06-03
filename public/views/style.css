@@ -1,0 +1,38 @@
+/* Layout Properties */
+.buttonEdit {
+  top: 793px;
+  left: 1712px;
+  width: 31px;
+  height: 31px;
+  background: #29628d12 0% 0% no-repeat padding-box;
+  border: 0.30000001192092896px solid #29628d;
+  opacity: 1;
+}
+
+.buttonDelete {
+  top: 746px;
+  left: 1765px;
+  width: 11px;
+  height: 13px;
+  background: #ff4269 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.buttonBuDelete {
+  top: 736px;
+  left: 1755px;
+  width: 31px;
+  height: 31px;
+  background: #29628d12 0% 0% no-repeat padding-box;
+  border: 0.30000001192092896px solid #29628d;
+  opacity: 1;
+}
+
+.buttonState {
+    top: 748px;
+    left: 1624px;
+    width: 20px;
+    height: 18px;
+    background: #54D4BB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

@@ -1,0 +1,37 @@
+<section>
+
+    <div class="d-flex justify-content-between">
+      <h4>Lista de gce</h4>
+      <a routerLink="/gce_caracteristicas/create" class="btn btn-success">Crear nuevo gce</a>
+    </div>
+
+    <br>
+    
+    <table class="table ">
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Board</th>
+        <th>Case</th>
+        <th>Procesador</th>
+        <th>Grafica</th>
+        <th>Ram</th>
+        <th>Disco duro</th>
+        <th>Teclado</th>
+        <th>Mouse</th>
+        <th>Pantalla</th>
+        <th>Estado</th>
+        <th width="220px">Action</th>
+      </tr>
+      <tr *ngFor="let gce of gces">
+        <td>{{ gce.id }}</td>
+        <td>{{ gce.name }}</td>
+        <td>{{ gce.email }}</td>
+        <td>{{ gce.phone }}</td>
+        <td>
+          <a href="#" [routerLink]="['/person/', 'edit', person.id  ]" class="btn btn-primary">Editar</a>
+          <button type="button" (click)="deletePerson(person.id)" class="btn btn-danger">Eliminar</button>
+        </td>
+      </tr>
+    </table>
+ </section>
